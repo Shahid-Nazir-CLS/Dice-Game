@@ -75,7 +75,7 @@ public class Game {
             int player1DieValue =  p1.rollDie();
             System.out.println("Your Die sum is " + player1DieValue);
 
-            if(player1DieValue > 7){
+            if(player1DieValue == 7){
 
                 System.out.println(p1.getPlayerName() + " won!\n");
                 player1Wins ++;
@@ -95,7 +95,7 @@ public class Game {
             int player2DieValue =  p2.rollDie();
             System.out.println("Your Die sum is " + player2DieValue);
 
-            if(player2DieValue > 7){
+            if(player2DieValue == 7){
 
                 System.out.println(p2.getPlayerName() + " won!");
                 totalGames ++;
